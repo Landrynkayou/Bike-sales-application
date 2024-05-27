@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bike sales application</string>
+    <string name="bike_name"><![CDATA[" <resources>\n    <string name=\"app_name\">Bike Sales</string>\n    <string name=\"bike_name\">Bike Name</string>\n    <string name=\"bike_price\">Price</string>\n    <string name=\"bike_description\">Description</string>\n    <string name=\"bike_image\">Bike Image</string>\n</resources>"]]></string>
+    <string name="bike_nameres">Bike Name</string>
+    <string name="bike_priceres">Bike Price</string>
+    <string name="searchres">Search</string>
+    <string name="search_for_bikesres">Search for bikes</string>
+    <string name="bike_pricere">Bike Price</string>
+    <string name="bike_namere">Bike Name</string>
+    <string name="bike_image" />
+    <string name="bike_price" />
+    <string name="bike_description" />
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_buy_bike.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyBikeActivity">
+
+    <EditText
+        android:id="@+id/bikeNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bike Name"/>
+
+    <EditText
+        android:id="@+id/bikePriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bike Price"
+        android:layout_below="@id/bikeNameEditText"/>
+
+    <Button
+        android:id="@+id/buyBikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Bike"
+        android:layout_below="@id/bikePriceEditText"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
