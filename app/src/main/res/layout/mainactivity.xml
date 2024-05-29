@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Bike App"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/bike_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Bikes"
+        android:onClick="goToBikeItemActivity"
+        android:layout_below="@id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/view_bike_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View My Bike"
+        android:onClick="goToViewBikeActivity"
+        android:layout_below="@id/bike_item_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Bikes"
+        android:onClick="goToSearchActivity"
+        android:layout_below="@id/view_bike_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"/>
+
+</RelativeLayout>
