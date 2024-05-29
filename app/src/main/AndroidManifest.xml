@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeSalesApplication"
         tools:targetApi="31">
+        <activity android:name=".activitysearchbike.xml"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

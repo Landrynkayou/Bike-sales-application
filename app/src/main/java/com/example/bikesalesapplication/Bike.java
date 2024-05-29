@@ -16,4 +16,8 @@ public class Bike {
     public double getPrice() {
         return price;
     }
+    Intent intent =new Intent (Bike.this, ViewBikeActivity.class)
+            intent.putExtra("bikeName",bike.getName());
+            intent.putExtra("bikeModel",bike.getName());
+            startActivity(intent);
 }

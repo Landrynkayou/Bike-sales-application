@@ -41,10 +41,10 @@
             android:id="@+id/bikeModelTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textSize="15sp"
             android:textStyle="italic"
-            android:text="@string/bike_price" />
+            android:text="@string/bike_model" />
 
         <TextView
             android:id="@+id/bikeDescriptionTextView"
