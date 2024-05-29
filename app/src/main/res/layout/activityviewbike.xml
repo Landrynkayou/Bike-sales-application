@@ -12,7 +12,7 @@
 
         <ImageView
             android:id="@+id/bikeImageView"
-            android:layout_width="match_parent"
+            android:layout_width="957dp"
             android:layout_height="300dp"
             android:contentDescription="@string/bike_image"
             android:scaleType="centerCrop"
@@ -41,18 +41,13 @@
             android:id="@+id/bikeModelTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:textSize="20sp"
-            android:textStyle="italic"
-            android:text="@string/bike_price" />
+            android:paddingTop="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Update : 2018 "
+            tools:ignore="HardcodedText" />
 
-        <TextView
-            android:id="@+id/bikeDescriptionTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:textSize="16sp"
-            android:text="@string/bike_description" />
+
 
     </LinearLayout>
 
